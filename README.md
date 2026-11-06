@@ -9,6 +9,7 @@
 [![Latest release](https://img.shields.io/github/v/release/lexi-apps/lexi-renpy-translator)](https://github.com/lexi-apps/lexi-renpy-translator/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/lexi-apps/lexi-renpy-translator/total)](https://github.com/lexi-apps/lexi-renpy-translator/releases)
 ![Platform](https://img.shields.io/badge/platform-Windows%2010%2F11-0078D6)
+[![Support on Patreon](https://img.shields.io/badge/Patreon-Support%20Lexi-F96854?logo=patreon&logoColor=white)](https://www.patreon.com/cw/LexiApps)
 
 ### [⬇️ Download the latest version](https://github.com/lexi-apps/lexi-renpy-translator/releases/latest)
 
@@ -25,6 +26,21 @@ Lexi is a desktop app for Windows that translates Ren'Py visual novel games into
 - **Your tags stay intact.** Ren'Py tags, variables and format codes are protected, and broken lines are caught and retried.
 - **No surprise bills.** Paid engines show an estimated cost and ask for your approval before starting.
 - **Free to start.** A free engine chain works with no API key.
+
+## Screenshots
+
+Lexi runs as a desktop app on Windows. The screens below show the main areas of the interface, using a sample Ren'Py game (The Question, a Ren'Py SDK demo) and the dark "Night" colour theme.
+
+| | |
+|---|---|
+| ![Overview](screenshots/01-overview.png) | ![Game scan](screenshots/02-scan.png) |
+| **Overview**: progress, backups and live preview of the translation | **Game scan**: counts the lines of text in a game folder without changing any files |
+| ![Translation settings](screenshots/03-engine-settings.png) | ![Quality and editing](screenshots/04-quality-editor.png) |
+| **Translation settings**: pick the target language and the translation service | **Quality and editing**: find broken, untranslated or empty lines and fix them in place |
+| ![Tools](screenshots/05-tools-coverage.png) | ![Glossary](screenshots/06-glossary.png) |
+| **Tools**: in-game coverage, in-game scan and mod translation | **Glossary**: protect character names and set fixed translations |
+| ![Application](screenshots/07-themes.png) | ![About](screenshots/08-about.png) |
+| **Application**: interface language, colour themes and background | **About**: update check, Ren'Py version board and changelog |
 
 ## Features
 
@@ -94,6 +110,10 @@ Translations are written through Ren'Py's own `tl/<language>/` system, and Lexi 
 **Can I turn off update checks?**
 Yes, in Settings. The check connects to GitHub.
 
+## Support Lexi
+
+Lexi is free to download. If it saves you time, you can support its development on **[Patreon](https://www.patreon.com/cw/LexiApps)**. Your support pays for development, testing on more games and new features.
+
 ## Reporting bugs
 
 Found a problem or have a suggestion? Please open an issue on [GitHub Issues](https://github.com/lexi-apps/lexi-renpy-translator/issues) and describe what happened, your Lexi version and, if possible, the game and engine you used.
@@ -114,5 +134,6 @@ Lexi is closed-source software, free to download. The source code is not part of
 - Arayüz 11 dilde, 12 renk teması, otomatik güncelleme.
 - Kurulum: [Releases](https://github.com/lexi-apps/lexi-renpy-translator/releases/latest) sayfasından `Lexi-RenPy-Translator-Setup-0.2.0.exe` dosyasını indirip çalıştırın. Kurulum dosyası henüz kod imzalı değildir; SmartScreen uyarısında "More info → Run anyway" seçin.
 - Hata bildirimi: GitHub Issues. Program kapalı kaynaklıdır, indirmesi ücretsizdir.
+- Destek: [Patreon](https://www.patreon.com/cw/LexiApps)
 
 </details>
