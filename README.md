@@ -25,7 +25,17 @@ Lexi is a desktop app for Windows that translates Ren'Py visual novel games into
 - **Your game stays safe.** Automatic backup before anything is written, with one-click restore.
 - **Your tags stay intact.** Ren'Py tags, variables and format codes are protected, and broken lines are caught and retried.
 - **No surprise bills.** Paid engines show an estimated cost and ask for your approval before starting.
-- **Free to start.** A free engine chain works with no API key.
+- **Easy to try.** Every new computer gets a 3-day free trial, and Basic needs no API key.
+
+## Plans
+
+| Plan | Price | What you get |
+|---|---|---|
+| **Basic** | $4/mo | Machine translation: Google, Microsoft Edge, Bing, Yandex, LibreTranslate and the free engine chain |
+| **Plus** | $7/mo | Basic + AI engines with your own API key: OpenAI and other AI providers |
+| **Pro** | $12/mo | Plus + monthly Lexi AI credits (coming soon) |
+
+Every new computer gets a 3-day free trial (Plus features). Subscribe on [Patreon](https://www.patreon.com/cw/LexiApps), then press **Sign in with Patreon** in Lexi — your license is activated and renewed automatically. One license = one computer.
 
 ## Screenshots
 
@@ -76,10 +86,10 @@ Lexi runs as a desktop app on Windows. The screens below show the main areas of 
 
 ## Getting started
 
-1. Download `Lexi-RenPy-Translator-Setup-0.2.0.exe` from the [Releases page](https://github.com/lexi-apps/lexi-renpy-translator/releases/latest).
+1. Download `Lexi-RenPy-Translator-Setup-0.2.1.exe` from the [Releases page](https://github.com/lexi-apps/lexi-renpy-translator/releases/latest).
 2. Run it. The installer is per-user, so no administrator rights are needed.
-3. Open Lexi and select your Ren'Py game.
-4. Choose the target language and a translation engine (review the estimate if the engine is paid).
+3. Open Lexi and start the 3-day free trial, or sign in with Patreon if you already subscribe.
+4. Select your Ren'Py game, choose the target language and a translation engine (review the estimate if the engine is paid).
 5. Start the translation, check the result in the editor, and launch your game.
 
 ## Requirements
@@ -102,7 +112,7 @@ Lexi runs as a desktop app on Windows. The screens below show the main areas of 
 The installer is not code-signed yet, so SmartScreen may show a warning. Click **More info → Run anyway** to continue.
 
 **Do I need an API key?**
-No. The free engine chain works without one. API keys are only needed for OpenAI and other AI providers.
+No, not for Basic. API keys are only needed for OpenAI and other AI providers (Plus).
 
 **Will Lexi change my original game files?**
 Translations are written through Ren'Py's own `tl/<language>/` system, and Lexi makes an automatic backup before writing. You can restore it with one click.
@@ -112,15 +122,15 @@ Yes, in Settings. The check connects to GitHub.
 
 ## Support Lexi
 
-Lexi is free to download. If it saves you time, you can support its development on **[Patreon](https://www.patreon.com/cw/LexiApps)**. Your support pays for development, testing on more games and new features.
+Lexi's membership plans are on **[Patreon](https://www.patreon.com/cw/LexiApps)**. Your support pays for development, testing on more games and new features.
 
 ## Reporting bugs
 
-Found a problem or have a suggestion? Please open an issue on [GitHub Issues](https://github.com/lexi-apps/lexi-renpy-translator/issues) and describe what happened, your Lexi version and, if possible, the game and engine you used.
+Found a problem? In Lexi, open the **About** tab and press **Report a problem** to send an error report (Lexi also offers to report after a crash). You can also open an issue on [GitHub Issues](https://github.com/lexi-apps/lexi-renpy-translator/issues) and describe what happened, your Lexi version and, if possible, the game and engine you used.
 
 ## License
 
-Lexi is closed-source software, free to download. The source code is not part of this repository, which only hosts releases and this page.
+Lexi is closed-source software. The source code is not part of this repository, which only hosts releases and this page.
 
 <details>
 <summary>🇹🇷 Türkçe özet</summary>
@@ -128,12 +138,13 @@ Lexi is closed-source software, free to download. The source code is not part of
 **Lexi — Ren'Py Translator**, Ren'Py görsel roman oyunlarını başka dillere çeviren bir Windows masaüstü programıdır (Windows 10/11, 64-bit).
 
 - `.rpy`, derlenmiş `.rpyc` ve `.rpa` arşivli oyunları tarar; çeviriyi Ren'Py'ın kendi `tl/<dil>/` sistemiyle yazar.
-- Ücretsiz motor zinciri (anahtar gerekmez), Bing, Yandex; kendi anahtarınızla OpenAI ve diğer yapay zekâ sağlayıcıları.
+- Planlar: Basic 4 $/ay (makine çevirisi: Google, Microsoft Edge, Bing, Yandex, LibreTranslate, ücretsiz motor zinciri; API anahtarı gerekmez), Plus 7 $/ay (Basic + kendi anahtarınızla OpenAI ve diğer yapay zekâ sağlayıcıları), Pro 12 $/ay (Plus + aylık Lexi yapay zekâ kredisi, yakında).
+- Her yeni bilgisayara 3 gün ücretsiz deneme (Plus özellikleri) verilir. [Patreon](https://www.patreon.com/cw/LexiApps)'a üye olup Lexi'de **Sign in with Patreon** düğmesine basın; lisans kendiliğinden açılır ve yenilenir. Bir lisans = bir bilgisayar.
 - Ücretli motorlarda başlamadan önce tahmini tutar ve onay, maliyet tavanı, çeviri hafızası.
 - Ren'Py etiketleri, değişkenler ve biçim kodları korunur; yazmadan önce otomatik yedek ve tek tıkla geri dönüş.
 - Arayüz 11 dilde, 12 renk teması, otomatik güncelleme.
-- Kurulum: [Releases](https://github.com/lexi-apps/lexi-renpy-translator/releases/latest) sayfasından `Lexi-RenPy-Translator-Setup-0.2.0.exe` dosyasını indirip çalıştırın. Kurulum dosyası henüz kod imzalı değildir; SmartScreen uyarısında "More info → Run anyway" seçin.
-- Hata bildirimi: GitHub Issues. Program kapalı kaynaklıdır, indirmesi ücretsizdir.
+- Kurulum: [Releases](https://github.com/lexi-apps/lexi-renpy-translator/releases/latest) sayfasından `Lexi-RenPy-Translator-Setup-0.2.1.exe` dosyasını indirip çalıştırın. Kurulum dosyası henüz kod imzalı değildir; SmartScreen uyarısında "More info → Run anyway" seçin.
+- Hata bildirimi: Lexi'de Hakkında sekmesindeki **Report a problem** düğmesi veya GitHub Issues. Program kapalı kaynaklıdır.
 - Destek: [Patreon](https://www.patreon.com/cw/LexiApps)
 
 </details>
