@@ -86,7 +86,7 @@ Lexi runs as a desktop app on Windows. The screens below show the main areas of 
 
 ## Getting started
 
-1. Download `Lexi-RenPy-Translator-Setup-0.2.1.exe` from the [Releases page](https://github.com/lexi-apps/lexi-renpy-translator/releases/latest).
+1. Download `Lexi-RenPy-Translator-Setup-0.2.2.exe` from the [Releases page](https://github.com/lexi-apps/lexi-renpy-translator/releases/latest).
 2. Run it. The installer is per-user, so no administrator rights are needed.
 3. Open Lexi and start the 3-day free trial, or sign in with Patreon if you already subscribe.
 4. Select your Ren'Py game, choose the target language and a translation engine (review the estimate if the engine is paid).
@@ -101,7 +101,9 @@ Lexi runs as a desktop app on Windows. The screens below show the main areas of 
 ## Privacy & safety
 
 - API keys are stored in the Windows Credential Manager.
-- Settings, translation memory and backups stay on your computer.
+- Your settings, translation memory and backups are stored on your computer. The text you translate is sent to the online translation engine you choose (for example Google, Microsoft, OpenAI), so it leaves your computer when you use one.
+- The license server stores only your machine code (a hash of hardware IDs), your Patreon user ID, license dates and an encrypted Patreon sign-in token, plus a salted hash of your IP address for abuse limits. It stores no name and no email.
+- **Report a problem** sends a cleaned log (keys, license key and your Windows user name removed) and your description, and only when you press Send.
 - Uninstalling Lexi does not delete your data.
 - Update files are verified with a digital signature and SHA-256 before installing.
 - The automatic update check connects to GitHub and can be turned off in Settings.
@@ -140,10 +142,11 @@ Lexi is closed-source software. The source code is not part of this repository, 
 - `.rpy`, derlenmiş `.rpyc` ve `.rpa` arşivli oyunları tarar; çeviriyi Ren'Py'ın kendi `tl/<dil>/` sistemiyle yazar.
 - Planlar: Basic 4 $/ay (makine çevirisi: Google, Microsoft Edge, Bing, Yandex, LibreTranslate, ücretsiz motor zinciri; API anahtarı gerekmez), Plus 7 $/ay (Basic + kendi anahtarınızla OpenAI ve diğer yapay zekâ sağlayıcıları), Pro 12 $/ay (Plus + aylık Lexi yapay zekâ kredisi, yakında).
 - Her yeni bilgisayara 3 gün ücretsiz deneme (Plus özellikleri) verilir. [Patreon](https://www.patreon.com/cw/LexiApps)'a üye olup Lexi'de **Sign in with Patreon** düğmesine basın; lisans kendiliğinden açılır ve yenilenir. Bir lisans = bir bilgisayar.
+- Gizlilik: ayarlar, çeviri hafızası ve yedekler bilgisayarınızda kalır; ancak çevrilen metin seçtiğiniz çevrimiçi çeviri motoruna gider. Lisans sunucusu yalnız makine kodunu (donanım kimliklerinin özeti), Patreon kullanıcı numaranızı, lisans tarihlerini, şifreli Patreon giriş jetonunu ve kötüye kullanım sınırı için IP'nin tuzlu özetini saklar; ad ve e-posta yoktur. "Report a problem" temizlenmiş günlüğü (anahtarlar, lisans anahtarı ve Windows kullanıcı adı çıkarılmış) ve açıklamanızı yalnız Gönder'e bastığınızda yollar.
 - Ücretli motorlarda başlamadan önce tahmini tutar ve onay, maliyet tavanı, çeviri hafızası.
 - Ren'Py etiketleri, değişkenler ve biçim kodları korunur; yazmadan önce otomatik yedek ve tek tıkla geri dönüş.
 - Arayüz 11 dilde, 12 renk teması, otomatik güncelleme.
-- Kurulum: [Releases](https://github.com/lexi-apps/lexi-renpy-translator/releases/latest) sayfasından `Lexi-RenPy-Translator-Setup-0.2.1.exe` dosyasını indirip çalıştırın. Kurulum dosyası henüz kod imzalı değildir; SmartScreen uyarısında "More info → Run anyway" seçin.
+- Kurulum: [Releases](https://github.com/lexi-apps/lexi-renpy-translator/releases/latest) sayfasından `Lexi-RenPy-Translator-Setup-0.2.2.exe` dosyasını indirip çalıştırın. Kurulum dosyası henüz kod imzalı değildir; SmartScreen uyarısında "More info → Run anyway" seçin.
 - Hata bildirimi: Lexi'de Hakkında sekmesindeki **Report a problem** düğmesi veya GitHub Issues. Program kapalı kaynaklıdır.
 - Destek: [Patreon](https://www.patreon.com/cw/LexiApps)
 
