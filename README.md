@@ -8,7 +8,7 @@
 
 # Lexi — Ren'Py Translator
 
-**Translate Ren'Py visual novels into your language — safely, accurately, and without breaking the game.**
+**Translate Ren'Py visual novels into your language. Basic is free: no account, no sign-in.**
 
 [![Basic Plan](https://img.shields.io/badge/Basic-Free-success)](https://github.com/lexi-apps/lexi-renpy-translator/releases/latest)
 [![Latest release](https://img.shields.io/github/v/release/lexi-apps/lexi-renpy-translator)](https://github.com/lexi-apps/lexi-renpy-translator/releases/latest)
@@ -24,7 +24,7 @@
 
 ---
 
-**Lexi** is a dedicated Windows desktop application designed to translate Ren'Py visual novels into any language. It scans dialogue, interface text, and menus directly from your game files, translates them using modern translation engines, and writes clean, native translation scripts via Ren'Py's built-in translation framework.
+**Lexi** is a dedicated Windows desktop application designed to translate Ren'Py visual novels into any language. It scans dialogue, interface text, and menus directly from your game files, translates them using modern translation engines, and writes translation scripts via Ren'Py's built-in translation framework.
 
 Starting with version 0.3.0, **Lexi Basic is completely free**. No account, no sign-in, no daily limits, and no startup lock screens. Just install, select your game, and start translating.
 
@@ -33,10 +33,10 @@ Starting with version 0.3.0, **Lexi Basic is completely free**. No account, no s
 ## Highlights
 
 - **Completely Free Basic Tier:** Translate with Google, Microsoft Edge, Bing, Yandex, or the automatic free fallback chain without paying, signing up, or entering API keys.
-- **Your game stays safe:** Automatic backup before anything is written, with one-click restore.
+- **Backup first:** Automatic backup before anything is written, with one-click restore.
 - **Code & Tag Preservation:** Ren'Py dialogue tags (`{b}`, `{i}`, `{color}`...), interpolation variables (`[name]`), and formatting codes stay intact. Damaged lines are detected and retried automatically.
 - **Broad Format Support:** Works directly with `.rpy` script files, compiled `.rpyc` files (via built-in decoder), and `.rpa` game archives.
-- **No surprise bills:** Paid engines show an estimated cost and ask for your approval before starting, and you can set a cost ceiling.
+- **Costs shown up front:** Paid engines show an estimated cost and ask for your approval before starting, and you can set a cost ceiling.
 - **Integrated Quality Tools:** In-game coverage checks, translation memory caching, glossaries for character names, and a built-in line editor.
 
 ---
@@ -77,32 +77,32 @@ Choose the plan that matches your translation workflow:
 
 ## Features
 
-### 🔎 Scanning & Native Output
+### Scanning & Native Output
 - Discovers dialogue lines, choices, menus, and user interface strings.
-- Handles standard `.rpy` scripts, compiled `.rpyc` binaries, and packed `.rpa` game archives seamlessly.
-- Generates clean files in the game's native `tl/<language>/` directory using standard Ren'Py syntax.
+- Handles standard `.rpy` scripts, compiled `.rpyc` binaries, and packed `.rpa` game archives.
+- Generates files in the game's native `tl/<language>/` directory using standard Ren'Py syntax.
 - Optional automatic in-game language switcher injection.
 - Safety net for text that would otherwise escape translation in-game, plus a coverage check.
 
-### 🌐 Translation Engines
+### Translation Engines
 - **Free Machine Translation:** Access Google, Microsoft Edge, Bing, Yandex, and the dual-service free engine chain with automatic fallback.
 - **Bring Your Own AI Key (Plus):** Connect your own API keys for OpenAI (GPT models) and additional AI providers.
 - **Source Languages:** Automatic language detection or manual selection: English, Japanese, Chinese, Korean, Russian, Spanish, Portuguese, German, French, Italian, Polish, Turkish, Indonesian, Vietnamese, Thai.
 - **Target Languages:** Any target language supported by the selected translation engine.
 
-### 💰 Cost Control & Budget Protection
+### Cost Control & Budget Protection
 - Upfront cost estimates calculated and displayed before any paid API operation begins.
-- Configurable maximum budget ceilings prevent unexpected API charges.
+- A cost ceiling you set yourself for paid runs.
 - Translation memory (caching) stores previously translated phrases to avoid redundant translations and API costs.
 
-### 🛡️ Code Protection & Quality Assurance
+### Code Protection & Quality Assurance
 - Preserves Ren'Py tags (`{b}`, `{i}`, `{color}`…), variables (`[name]`) and format codes.
 - Detects damaged lines and retries them automatically.
 - Quality check and a built-in translation editor for manual fixes.
 - Glossary (term list) to keep character names and terms consistent.
 - Translations saved per game; mod translation supported.
 
-### 🎨 User Interface & Customization
+### User Interface & Customization
 - **11 interface languages:** English, Türkçe, Русский, 中文, 日本語, Español, Português (Brasil), Deutsch, Français, 한국어, Polski.
 - **12 curated color themes** plus support for custom background wallpapers.
 - Automatic updates from this repository, installed with one click.
@@ -127,7 +127,7 @@ Choose the plan that matches your translation workflow:
 
 ---
 
-## Privacy & Safety
+## Privacy & Data
 
 - **Your data stays on your computer:** settings, translation memory and backups are stored locally.
 - **API keys** are stored in the Windows Credential Manager.
@@ -175,6 +175,13 @@ Encountered an issue?
 
 ---
 
+## More from Lexi Apps
+
+- **Website:** [lexi-apps.github.io](https://lexi-apps.github.io/)
+- **[Lexi Download Manager](https://github.com/lexi-apps/lexi-download-manager):** a free download manager for Windows, with no ads and no account.
+
+---
+
 ## License
 
 Lexi is closed-source software. The source code is not part of this repository, which only hosts releases and this page.
@@ -191,7 +198,7 @@ Lexi is closed-source software. The source code is not part of this repository, 
 #### 0.3.0 ile Gelen Yenilikler ve Temel Özellikler
 - **Basic Artık Tamamen Ücretsiz:** Hesap açma, giriş yapma, lisans anahtarı veya günlük kullanım sınırı yoktur. Kurulumun hemen ardından Google, Microsoft Edge, Bing, Yandex ve otomatik geçişli ücretsiz motor zinciri ile sınırsız çeviri yapabilirsiniz.
 - **Açılış Kilidi Yok:** Program doğrudan açılır; deneme süresi veya abonelik sona erdiğinde program kilitlenmez, ücretsiz Basic sürümde çalışmaya devam eder.
-- **Oyun güvenliği:** Bir şey yazılmadan önce otomatik yedek alınır; tek tıkla geri dönebilirsiniz.
+- **Önce yedek:** Bir şey yazılmadan önce otomatik yedek alınır; tek tıkla geri dönebilirsiniz.
 - **Kod ve Etiket Koruması:** Ren'Py metin etiketleri (`{b}`, `{color}` vb.), değişkenler (`[name]`) ve biçimlendirmeler korunur; hasarlı satırlar tespit edilip otomatik olarak yeniden denenir.
 - **Geniş Dosya Desteği:** Standart `.rpy` betikleri, derlenmiş `.rpyc` dosyaları (dahili çözücü) ve `.rpa` arşiv paketleri doğrudan taranır ve çeviriler Ren'Py'ın yerel `tl/<dil>/` klasörüne yazılır.
 - **Planlar:**
