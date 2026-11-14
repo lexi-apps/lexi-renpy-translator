@@ -15,6 +15,7 @@
 [![Downloads](https://img.shields.io/github/downloads/lexi-apps/lexi-renpy-translator/total)](https://github.com/lexi-apps/lexi-renpy-translator/releases)
 ![Platform](https://img.shields.io/badge/platform-Windows%2010%2F11-0078D6)
 [![Support on Patreon](https://img.shields.io/badge/Patreon-Support%20Lexi-F96854?logo=patreon&logoColor=white)](https://www.patreon.com/cw/LexiApps)
+[![Website](https://img.shields.io/badge/Website-lexi--apps.github.io-ff5a36)](https://lexi-apps.github.io/)
 
 ### [⬇️ Download Lexi 0.3.0 for Windows](https://github.com/lexi-apps/lexi-renpy-translator/releases/latest)
 *Installer: `Lexi-RenPy-Translator-Setup-0.3.0.exe` (~125 MB, Windows 10/11 64-bit)*
