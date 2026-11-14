@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.jpg" alt="Lexi — Ren'Py Translator" width="100%">
+<img src="assets/banner-v2.jpg" alt="Lexi Ren'Py Translator" width="100%">
 
 <br>
 
