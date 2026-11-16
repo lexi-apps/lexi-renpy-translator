@@ -17,8 +17,8 @@
 [![Support on Patreon](https://img.shields.io/badge/Patreon-Support%20Lexi-F96854?logo=patreon&logoColor=white)](https://www.patreon.com/cw/LexiApps)
 [![Website](https://img.shields.io/badge/Website-lexi--apps.github.io-ff5a36)](https://lexi-apps.github.io/)
 
-### [⬇️ Download Lexi 0.3.1 for Windows](https://github.com/lexi-apps/lexi-renpy-translator/releases/latest)
-*Installer: `Lexi-RenPy-Translator-Setup-0.3.1.exe` (~137 MB, Windows 10/11 64-bit)*
+### [⬇️ Download Lexi for Windows](https://github.com/lexi-apps/lexi-renpy-translator/releases/latest)
+*Installer: about 137 MB, Windows 10/11 64-bit*
 
 </div>
 
@@ -111,7 +111,7 @@ Choose the plan that matches your translation workflow:
 
 ## Getting Started
 
-1. **Download:** Grab the latest `Lexi-RenPy-Translator-Setup-0.3.1.exe` installer from the [Releases page](https://github.com/lexi-apps/lexi-renpy-translator/releases/latest).
+1. **Download:** Grab the latest `Lexi-RenPy-Translator-Setup` installer from the [Releases page](https://github.com/lexi-apps/lexi-renpy-translator/releases/latest).
 2. **Install:** Run the installer. It installs per-user in your local profile, requiring no administrator permissions.
 3. **Open:** Launch Lexi. You are immediately ready to use the free Basic tier—no registration or login necessary. (Optional: Click *Sign in with Patreon* or start the 3-day trial if you wish to use Plus AI features).
 4. **Configure:** Select your Ren'Py game folder, set your target language, and pick your preferred translation engine.
@@ -171,7 +171,7 @@ Lexi's Plus and Pro plans are on **[Patreon](https://www.patreon.com/cw/LexiApps
 
 Encountered an issue?
 - **In the app:** open the **About** tab and press **Report a problem** to send an error report (Lexi also offers to report after a crash).
-- **GitHub:** Open a ticket on [GitHub Issues](https://github.com/lexi-apps/lexi-renpy-translator/issues) detailing what occurred, your Lexi version (0.3.1), your Windows version, and the game or translation engine involved.
+- **GitHub:** Open a ticket on [GitHub Issues](https://github.com/lexi-apps/lexi-renpy-translator/issues) detailing what occurred, your Lexi version, your Windows version, and the game or translation engine involved.
 
 ---
 
@@ -211,7 +211,7 @@ Lexi is closed-source software. The source code is not part of this repository, 
 - **Gizlilik:** Ayarlar, çeviri hafızası ve yedekler bilgisayarınızda kalır; çevrilen metin seçtiğiniz çevrimiçi çeviri motoruna gider. API anahtarları Windows Kimlik Bilgisi Yöneticisi'nde saklanır. Lisans sunucusuna yalnız denemeyi başlatırsanız ya da Patreon ile giriş yaparsanız bağlanılır; yalnız makine kodunu (donanım kimliklerinin özeti), Patreon kullanıcı numaranızı, lisans tarihlerini, şifreli Patreon giriş jetonunu ve IP'nin tuzlu özetini saklar; ad ve e-posta yoktur.
 
 #### Hızlı Başlangıç
-1. [Releases](https://github.com/lexi-apps/lexi-renpy-translator/releases/latest) sayfasından `Lexi-RenPy-Translator-Setup-0.3.1.exe` kurulum dosyasını indirin.
+1. [Releases](https://github.com/lexi-apps/lexi-renpy-translator/releases/latest) sayfasından `Lexi-RenPy-Translator-Setup` kurulum dosyasını indirin.
 2. Kurulumu çalıştırın (yönetici yetkisi gerektirmez). SmartScreen uyarısı çıkarsa "More info → Run anyway" seçeneğini kullanın.
 3. Lexi'yi açın, oyun klasörünü, hedef dili ve çeviri motorunu seçip çeviriyi başlatın.
 
