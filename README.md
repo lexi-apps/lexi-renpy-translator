@@ -1,14 +1,12 @@
 <div align="center">
 
-<img src="assets/banner-v2.jpg" alt="Lexi Ren'Py Translator" width="100%">
-
-<br>
-
 <img src="assets/lexi_mark.png" alt="Lexi logo" width="100">
 
 # Lexi — Ren'Py Translator
 
-**Translate Ren'Py visual novels into your language. Basic is free: no account, no sign-in.**
+**Play your favorite Ren'Py visual novels in your own language. Basic is free: no account, no sign-in.**
+
+<img src="assets/cards/card-hero.jpg" alt="A translated Ren'Py game scene with the caption: Play it in your language." width="100%">
 
 [![Basic Plan](https://img.shields.io/badge/Basic-Free-success)](https://github.com/lexi-apps/lexi-renpy-translator/releases/latest)
 [![Latest release](https://img.shields.io/github/v/release/lexi-apps/lexi-renpy-translator)](https://github.com/lexi-apps/lexi-renpy-translator/releases/latest)
@@ -18,43 +16,93 @@
 [![Website](https://img.shields.io/badge/Website-lexi--apps.github.io-ff5a36)](https://lexi-apps.github.io/)
 
 ### [⬇️ Download Lexi for Windows](https://github.com/lexi-apps/lexi-renpy-translator/releases/latest)
-*Installer: about 137 MB, Windows 10/11 64-bit*
+*Installer: about 137 MB, Windows 10/11 64-bit · [Website](https://lexi-apps.github.io/)*
 
 </div>
 
 ---
 
-**Lexi** is a dedicated Windows desktop application designed to translate Ren'Py visual novels into any language. It scans dialogue, interface text, and menus directly from your game files, translates them using modern translation engines, and writes translation scripts via Ren'Py's built-in translation framework.
+**Lexi** is a Windows desktop app that translates Ren'Py visual novels into your language. It scans dialogue, interface text and menus straight from your game files, translates them with online translation engines, and writes the result through Ren'Py's own translation system, so the game simply shows up in your language.
 
-Starting with version 0.3.0, **Lexi Basic is completely free**. No account, no sign-in, no daily limits, and no startup lock screens. Just install, select your game, and start translating.
+Translations come from online translation engines, so they are machine translations. They are a fast way to understand and enjoy a game, and the built-in editor is there for the lines you want to polish.
+
+**Lexi Basic is free:** no account, no sign-in, no daily limit and no lock screen. Install it, pick your game and start translating.
+
+---
+
+## What you get
+
+### One line, your language
+
+Pick the language you want to read and Lexi translates the whole game into it. The same scene, six languages: Turkish, Japanese, Korean, Russian, Spanish and German. The interface itself comes in 11 languages too.
+
+<img src="assets/cards/card-languages.jpg" alt="The same game scene shown in six languages: Turkish, Japanese, Korean, Russian, Spanish and German." width="100%">
+
+### Real letters, not empty boxes
+
+For Chinese, Japanese, Korean, Thai and Hindi, the right fonts are added to the game automatically, so you see real letters instead of empty boxes.
+
+<img src="assets/cards/card-fonts.jpg" alt="Empty boxes on the left, real Chinese, Japanese, Korean, Thai and Hindi letters on the right." width="100%">
+
+### Names stay names
+
+Character names are protected. A character called "Rose" stays a character, and does not get turned into the flower. A glossary lets you lock names and set fixed translations for terms you care about.
+
+<img src="assets/cards/card-names.jpg" alt="A character named Rose keeps her name instead of being translated into the word for the flower." width="100%">
+
+### Menus come translated
+
+Ren'Py's own menu text comes with Ren'Py's official translations, so the game's menus read naturally in your language too.
+
+<img src="assets/cards/card-menus.jpg" alt="Ren'Py's built-in menus shown in a translated language using the official Ren'Py translations." width="100%">
+
+### Make it yours
+
+Choose from 12 color themes, or use your own picture as the background.
+
+<img src="assets/cards/card-themes.jpg" alt="Color themes and a custom background image." width="100%">
+
+---
+
+## How it works
+
+1. **Pick your game folder.** Lexi scans the scripts, compiled `.rpyc` files and `.rpa` archives for text.
+2. **Choose your language** and a translation engine. The free engines work right away.
+3. **Press Translate.** Ren'Py tags, variables and formatting codes are kept intact, and damaged lines are detected and retried automatically. A backup is made before anything is written, with one-click restore.
+4. **Open the game in your language.** Review or fix lines in the built-in editor whenever you like.
+
+---
+
+## The app
+
+Lexi is a native Windows desktop app. These screenshots show the Ren'Py SDK demo game (*The Question*).
+
+<img src="screenshots/app-overview.jpg" alt="Lexi overview screen with progress, backups and a live preview, shown over a custom wallpaper." width="100%">
+
+*Overview: progress, backups and a live preview of the translation.*
+
+<img src="screenshots/app-editor.jpg" alt="Lexi's built-in translation editor." width="100%">
+
+*Built-in editor: find broken, untranslated or empty lines and fix them in place.*
+
+<img src="screenshots/app-scan.jpg" alt="Lexi's game scan screen." width="100%">
+
+*Game scan: counts the lines of text in a game folder.*
+
+<img src="screenshots/app-themes.jpg" alt="Lexi's application settings with color themes and background options." width="100%">
+
+*Application settings: interface language, color themes and background.*
 
 ---
 
 ## Highlights
 
-- **Completely Free Basic Tier:** Translate with Google, Microsoft Edge, Bing, Yandex, or the automatic free fallback chain without paying, signing up, or entering API keys.
+- **Free Basic tier:** Translate with Google, Microsoft Edge, Bing, Yandex, or the automatic free fallback chain without paying, signing up, or entering API keys.
 - **Backup first:** Automatic backup before anything is written, with one-click restore.
-- **Code & Tag Preservation:** Ren'Py dialogue tags (`{b}`, `{i}`, `{color}`...), interpolation variables (`[name]`), and formatting codes stay intact. Damaged lines are detected and retried automatically.
-- **Broad Format Support:** Works directly with `.rpy` script files, compiled `.rpyc` files (via built-in decoder), and `.rpa` game archives.
+- **Code & tag preservation:** Ren'Py dialogue tags (`{b}`, `{i}`, `{color}`...), interpolation variables (`[name]`) and formatting codes stay intact. Damaged lines are detected and retried automatically.
+- **Broad format support:** Works with `.rpy` script files, compiled `.rpyc` files (via a built-in decoder), and `.rpa` game archives.
 - **Costs shown up front:** Paid engines show an estimated cost and ask for your approval before starting, and you can set a cost ceiling.
-- **Integrated Quality Tools:** In-game coverage checks, translation memory caching, glossaries for character names, and a built-in line editor.
-
----
-
-## Screenshots
-
-Lexi runs as a native desktop app on Windows. The screenshots below highlight the interface using the Ren'Py SDK demo game (*The Question*) in the dark "Night" theme.
-
-| | |
-|---|---|
-| ![Overview](screenshots/01-overview.png) | ![Game scan](screenshots/02-scan.png) |
-| **Overview**: progress, backups and live preview of the translation | **Game scan**: counts the lines of text in a game folder without changing any files |
-| ![Translation settings](screenshots/03-engine-settings.png) | ![Quality and editing](screenshots/04-quality-editor.png) |
-| **Translation settings**: pick the target language and the translation service | **Quality and editing**: find broken, untranslated or empty lines and fix them in place |
-| ![Tools](screenshots/05-tools-coverage.png) | ![Glossary](screenshots/06-glossary.png) |
-| **Tools**: in-game coverage, in-game scan and mod translation | **Glossary**: protect character names and set fixed translations |
-| ![Application](screenshots/07-themes.png) | ![About](screenshots/08-about.png) |
-| **Application**: interface language, colour themes and background | **About**: update check, Ren'Py version board and changelog |
+- **Quality tools:** In-game coverage checks, translation memory caching, glossaries for character names, and a built-in line editor.
 
 ---
 
@@ -70,7 +118,7 @@ Choose the plan that matches your translation workflow:
 
 ### How subscriptions work
 - **Optional 3-day free trial:** Every computer can start a one-time 3-day trial of Plus features from inside the app. The trial is optional; Lexi works without it.
-- **Patreon integration:** Subscribe on [Patreon](https://www.patreon.com/cw/LexiApps), open Lexi, and click **Sign in with Patreon**. Your license activates and renews automatically (one license per computer).
+- **Patreon integration:** Subscribe on [Patreon](https://www.patreon.com/cw/LexiApps), open Lexi, and click **Sign in with Patreon**. Your license activates and renews automatically. One license = one computer.
 - **Lexi does not lock when a plan ends:** If your trial or subscription ends, Basic keeps working; only the Plus features turn off.
 
 ---
@@ -113,7 +161,7 @@ Choose the plan that matches your translation workflow:
 
 1. **Download:** Grab the latest `Lexi-RenPy-Translator-Setup` installer from the [Releases page](https://github.com/lexi-apps/lexi-renpy-translator/releases/latest).
 2. **Install:** Run the installer. It installs per-user in your local profile, requiring no administrator permissions.
-3. **Open:** Launch Lexi. You are immediately ready to use the free Basic tier—no registration or login necessary. (Optional: Click *Sign in with Patreon* or start the 3-day trial if you wish to use Plus AI features).
+3. **Open:** Launch Lexi. You are immediately ready to use the free Basic tier, with no registration or login necessary. (Optional: click *Sign in with Patreon* or start the 3-day trial if you wish to use Plus AI features.)
 4. **Configure:** Select your Ren'Py game folder, set your target language, and pick your preferred translation engine.
 5. **Translate & Play:** Run the translation, review or refine lines in the built-in editor, and launch your translated visual novel.
 
@@ -142,7 +190,7 @@ Choose the plan that matches your translation workflow:
 ## Frequently Asked Questions
 
 #### Is Lexi really free?
-Yes. Since version 0.3.0 the **Basic** plan is free: no account, no sign-in and no daily limit. You can translate whole games with the machine translation engines right away.
+Yes. The **Basic** plan is free: no account, no sign-in and no daily limit. You can translate whole games with the machine translation engines right away.
 
 #### Do I need an account or an API key to use Lexi?
 No. You do not need an account, Patreon sign-in, or API key to use the free Basic tier. API keys and Patreon sign-in are only needed if you want to use Plus features for AI models (such as OpenAI).
@@ -195,8 +243,8 @@ Lexi is closed-source software. The source code is not part of this repository, 
 
 **Lexi**, Ren'Py görsel roman oyunlarını başka dillere çeviren bir Windows masaüstü programıdır (Windows 10/11, 64-bit).
 
-#### 0.3.0 ile Gelen Yenilikler ve Temel Özellikler
-- **Basic Artık Tamamen Ücretsiz:** Hesap açma, giriş yapma, lisans anahtarı veya günlük kullanım sınırı yoktur. Kurulumun hemen ardından Google, Microsoft Edge, Bing, Yandex ve otomatik geçişli ücretsiz motor zinciri ile sınırsız çeviri yapabilirsiniz.
+#### Temel Özellikler
+- **Basic Tamamen Ücretsiz:** Hesap açma, giriş yapma, lisans anahtarı veya günlük kullanım sınırı yoktur. Kurulumun hemen ardından Google, Microsoft Edge, Bing, Yandex ve otomatik geçişli ücretsiz motor zinciri ile sınırsız çeviri yapabilirsiniz.
 - **Açılış Kilidi Yok:** Program doğrudan açılır; deneme süresi veya abonelik sona erdiğinde program kilitlenmez, ücretsiz Basic sürümde çalışmaya devam eder.
 - **Önce yedek:** Bir şey yazılmadan önce otomatik yedek alınır; tek tıkla geri dönebilirsiniz.
 - **Kod ve Etiket Koruması:** Ren'Py metin etiketleri (`{b}`, `{color}` vb.), değişkenler (`[name]`) ve biçimlendirmeler korunur; hasarlı satırlar tespit edilip otomatik olarak yeniden denenir.
