@@ -42,7 +42,7 @@ Pick the language you want to read and Lexi translates the whole game into it. T
 
 For Chinese, Japanese, Korean, Thai and Hindi, the right fonts are added to the game automatically, so you see real letters instead of empty boxes.
 
-<img src="assets/cards/card-fonts.jpg" alt="Empty boxes on the left, real Chinese, Japanese, Korean, Thai and Hindi letters on the right." width="100%">
+<img src="assets/cards/card-fonts.jpg" alt="Empty boxes on the left, real Japanese and Korean letters on the right." width="100%">
 
 ### Names stay names
 
