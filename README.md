@@ -13,6 +13,7 @@
 [![Downloads](https://img.shields.io/github/downloads/lexi-apps/lexi-renpy-translator/total)](https://github.com/lexi-apps/lexi-renpy-translator/releases)
 ![Platform](https://img.shields.io/badge/platform-Windows%2010%2F11-0078D6)
 [![Support on Patreon](https://img.shields.io/badge/Patreon-Support%20Lexi-F96854?logo=patreon&logoColor=white)](https://www.patreon.com/cw/LexiApps)
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Support-FFDD00?logo=buymeacoffee&logoColor=black)](https://buymeacoffee.com/lexiapps)
 [![Website](https://img.shields.io/badge/Website-lexi--apps.github.io-ff5a36)](https://lexi-apps.github.io/)
 
 ### [⬇️ Download Lexi for Windows](https://github.com/lexi-apps/lexi-renpy-translator/releases/latest)
@@ -213,6 +214,8 @@ Yes. You can disable automatic update checks at any time in the application sett
 
 Lexi's Plus and Pro plans are on **[Patreon](https://www.patreon.com/cw/LexiApps)**. Your support pays for development, testing on more games and new features.
 
+Prefer a one-time tip instead of a membership? You can also leave voluntary support on **[Buy Me a Coffee](https://buymeacoffee.com/lexiapps)** (donations only — Plus and Pro licenses are only on Patreon).
+
 ---
 
 ## Reporting Bugs
@@ -255,6 +258,7 @@ Lexi is closed-source software. The source code is not part of this repository, 
   - **Pro (12 $/ay):** Plus özelliklerine ek olarak her ay dahil edilen Lexi yapay zekâ kredileri *(yakında)*.
 - **3 günlük Plus denemesi:** Her bilgisayarda bir kez, isteğe bağlı olarak uygulama içinden başlatılabilir.
 - **Abonelik:** [Patreon](https://www.patreon.com/cw/LexiApps) üzerinden abone olduktan sonra uygulama içinde **Sign in with Patreon** düğmesine tıklayarak lisansınızı otomatik olarak etkinleştirebilirsiniz (1 lisans = 1 bilgisayar).
+- **Tek seferlik bağış:** Abonelik olmadan destek olmak isterseniz [Buy Me a Coffee](https://buymeacoffee.com/lexiapps) üzerinden katkıda bulunabilirsiniz (yalnızca gönüllü destektir; Plus/Pro lisansı içermez).
 - **Arayüz:** 11 dil, 12 renk teması ve özel arka plan.
 - **Gizlilik:** Ayarlar, çeviri hafızası ve yedekler bilgisayarınızda kalır; çevrilen metin seçtiğiniz çevrimiçi çeviri motoruna gider. API anahtarları Windows Kimlik Bilgisi Yöneticisi'nde saklanır. Lisans sunucusuna yalnız denemeyi başlatırsanız ya da Patreon ile giriş yaparsanız bağlanılır; yalnız makine kodunu (donanım kimliklerinin özeti), Patreon kullanıcı numaranızı, lisans tarihlerini, şifreli Patreon giriş jetonunu ve IP'nin tuzlu özetini saklar; ad ve e-posta yoktur.
 
