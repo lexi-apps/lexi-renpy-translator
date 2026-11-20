@@ -14,10 +14,10 @@
 ![Platform](https://img.shields.io/badge/platform-Windows%2010%2F11-0078D6)
 [![Support on Patreon](https://img.shields.io/badge/Patreon-Support%20Lexi-F96854?logo=patreon&logoColor=white)](https://www.patreon.com/cw/LexiApps)
 [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Support-FFDD00?logo=buymeacoffee&logoColor=black)](https://buymeacoffee.com/lexiapps)
-[![Website](https://img.shields.io/badge/Website-lexi--apps.github.io-ff5a36)](https://lexi-apps.github.io/)
+[![Website](https://img.shields.io/badge/Website-lexi--apps.pages.dev-ff5a36)](https://lexi-apps.pages.dev/lexi-renpy-translator/)
 
 ### [⬇️ Download Lexi for Windows](https://github.com/lexi-apps/lexi-renpy-translator/releases/latest)
-*Installer: about 137 MB, Windows 10/11 64-bit · [Website](https://lexi-apps.github.io/)*
+*Installer: about 137 MB, Windows 10/11 64-bit · [Website](https://lexi-apps.pages.dev/lexi-renpy-translator/)*
 
 </div>
 
@@ -230,7 +230,7 @@ Encountered an issue?
 
 ## More from Lexi Apps
 
-- **Website:** [lexi-apps.github.io](https://lexi-apps.github.io/)
+- **Website:** [lexi-apps.pages.dev](https://lexi-apps.pages.dev/lexi-renpy-translator/)
 - **[Lexi Download Manager](https://github.com/lexi-apps/lexi-download-manager):** a free download manager for Windows, with no ads and no account.
 
 ---
