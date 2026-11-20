@@ -29,6 +29,8 @@ Translations come from online translation engines, so they are machine translati
 
 **Lexi Basic is free:** no account, no sign-in, no daily limit and no lock screen. Install it, pick your game and start translating.
 
+<p align="center"><img src="assets/lexi_demo.gif" alt="Lexi scanning a Ren'Py game, translating it to Turkish, then the game running in Turkish" width="800"></p>
+
 ---
 
 ## What you get
@@ -200,7 +202,7 @@ No. You do not need an account, Patreon sign-in, or API key to use the free Basi
 Lexi does not lock. Basic keeps working with the free engines; only the Plus features turn off.
 
 #### Windows SmartScreen warns me when I run the installer. Is that normal?
-The installer is not code-signed yet, so SmartScreen may show a warning. Click **More info → Run anyway** to continue.
+Windows may show "Windows protected your PC" the first time you run the installer. This appears because Lexi is not code-signed yet (signing certificates are paid), not because a problem was found. Click **More info**, then **Run anyway**. Download Lexi only from the [official GitHub releases page](https://github.com/lexi-apps/lexi-renpy-translator/releases).
 
 #### Will Lexi change my game files?
 Lexi writes the translation into the game folder through Ren'Py's own `tl/<language>/` system. Before writing anything it makes an automatic backup, which you can restore with one click.
