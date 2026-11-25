@@ -2,273 +2,251 @@
 
 <img src="assets/lexi_mark.png" alt="Lexi logo" width="100">
 
-# Lexi — Ren'Py Translator
+# Lexi Game Translator
 
-**Play your favorite Ren'Py visual novels in your own language. Basic is free: no account, no sign-in.**
+**One translator. 18 game engines. Play games in your own language — Basic is free, with no account and no sign-in.**
 
-<img src="assets/cards/card-hero.jpg" alt="A translated Ren'Py game scene with the caption: Play it in your language." width="100%">
+<img src="assets/cards/card-hero.png" alt="Lexi Game Translator supporting 18 game engines with automatic detection" width="100%">
 
 [![Basic Plan](https://img.shields.io/badge/Basic-Free-success)](https://github.com/lexi-apps/lexi-renpy-translator/releases/latest)
 [![Latest release](https://img.shields.io/github/v/release/lexi-apps/lexi-renpy-translator)](https://github.com/lexi-apps/lexi-renpy-translator/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/lexi-apps/lexi-renpy-translator/total)](https://github.com/lexi-apps/lexi-renpy-translator/releases)
 ![Platform](https://img.shields.io/badge/platform-Windows%2010%2F11-0078D6)
+[![Discord](https://img.shields.io/badge/Discord-Join%20Community-5865F2?logo=discord&logoColor=white)](https://discord.gg/HN9eWThUn2)
 [![Support on Patreon](https://img.shields.io/badge/Patreon-Support%20Lexi-F96854?logo=patreon&logoColor=white)](https://www.patreon.com/cw/LexiApps)
 [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Support-FFDD00?logo=buymeacoffee&logoColor=black)](https://buymeacoffee.com/lexiapps)
 [![Website](https://img.shields.io/badge/Website-lexi--apps.pages.dev-ff5a36)](https://lexi-apps.pages.dev/lexi-renpy-translator/)
-[![Discord](https://img.shields.io/badge/Discord-community-5865F2?logo=discord&logoColor=white)](https://discord.gg/HN9eWThUn2)
 
 ### [⬇️ Download Lexi for Windows](https://github.com/lexi-apps/lexi-renpy-translator/releases/latest)
-*Installer: about 137 MB, Windows 10/11 64-bit · [Website](https://lexi-apps.pages.dev/lexi-renpy-translator/)*
+*Windows 10 / 11 (64-bit) · [Website](https://lexi-apps.pages.dev/lexi-renpy-translator/) · [Discord](https://discord.gg/HN9eWThUn2)*
 
 </div>
 
 ---
 
-**Lexi** is a Windows desktop app that translates Ren'Py visual novels into your language. It scans dialogue, interface text and menus straight from your game files, translates them with online translation engines, and writes the result through Ren'Py's own translation system, so the game simply shows up in your language.
+**Lexi Game Translator** is a native Windows desktop app that translates games across **18 game engines** into your language. Drop a game folder and Lexi detects the engine, prepares Autopilot bridges and font patches where needed, creates an automatic backup first, and translates dialogue, choices, and interface text cleanly.
 
-Translations come from online translation engines, so they are machine translations. They are a fast way to understand and enjoy a game, and the built-in editor is there for the lines you want to polish.
+Machine translation is a fast way to read and enjoy games in another language, and Lexi's built-in quality checks and line editor let you polish any line whenever you want.
 
-**Lexi Basic is free:** no account, no sign-in, no daily limit and no lock screen. Install it, pick your game and start translating.
+**Lexi Basic is free:** no account, no sign-in, no daily limit, and no lock screen. Install it, drop your game folder, and start translating.
 
-<p align="center"><img src="assets/lexi_demo.gif" alt="Lexi scanning a Ren'Py game, translating it to Turkish, then the game running in Turkish" width="800"></p>
+<p align="center"><img src="assets/lexi_demo.gif" alt="Lexi Game Translator showcase: 18 engines, Autopilot setup, live translation, and in-game result" width="820"></p>
 
 ---
 
 ## What you get
 
-### One line, your language
+### Drop it. Click once. (Autopilot & Live Bridge)
 
-Pick the language you want to read and Lexi translates the whole game into it. The same scene, six languages: Turkish, Japanese, Korean, Russian, Spanish and German. The interface itself comes in 11 languages too.
+For Unity and Unreal games, Lexi Autopilot installs and wires BepInEx/XUnity or UE4SS bridges and font patches automatically — while simpler engines like Ren'Py and RPG Maker keep a clean interface with zero plugin clutter.
 
-<img src="assets/cards/card-languages.jpg" alt="The same game scene shown in six languages: Turkish, Japanese, Korean, Russian, Spanish and German." width="100%">
+<img src="assets/cards/card-autopilot.png" alt="Autopilot and Live Bridge setup for Unity and Unreal games alongside clean UI for standard engines" width="100%">
+
+### Three clicks to play
+
+Drop the game folder, pick your target language and translation engine, watch live progress, and launch straight from your Game Shelf.
+
+<img src="assets/cards/card-workflow.png" alt="Three clicks to play: drop folder, watch live translation progress, and play in your language" width="100%">
 
 ### Real letters, not empty boxes
 
-For Chinese, Japanese, Korean, Thai and Hindi, the right fonts are added to the game automatically, so you see real letters instead of empty boxes.
+Automatic font patching adds compatible fonts for Turkish, Cyrillic, Japanese, Korean, Chinese, Thai, and Hindi so text renders cleanly instead of empty boxes.
 
-<img src="assets/cards/card-fonts.jpg" alt="Empty boxes on the left, real Japanese and Korean letters on the right." width="100%">
+<img src="assets/cards/card-fonts.png" alt="Before and after automatic font patch showing Japanese and Korean letters instead of empty boxes" width="100%">
 
 ### Names stay names
 
-Character names are protected. A character called "Rose" stays a character, and does not get turned into the flower. A glossary lets you lock names and set fixed translations for terms you care about.
+Character names, speaker tags, choices, and formatting codes stay protected. A character named "Rose" stays Rose instead of turning into the word for the flower.
 
-<img src="assets/cards/card-names.jpg" alt="A character named Rose keeps her name instead of being translated into the word for the flower." width="100%">
+<img src="assets/cards/card-names.png" alt="Character name Rose preserved during translation instead of being translated as a flower" width="100%">
 
-### Menus come translated
+### 12 app languages — including native right-to-left Arabic
 
-Ren'Py's own menu text comes with Ren'Py's official translations, so the game's menus read naturally in your language too.
+Translate into 30+ languages and use Lexi itself in **12 built-in interface languages**: English, Türkçe, العربية (full RTL), Русский, 中文, 日本語, Español, Português (Brasil), Deutsch, Français, 한국어, and Polski.
 
-<img src="assets/cards/card-menus.jpg" alt="Ren'Py's built-in menus shown in a translated language using the official Ren'Py translations." width="100%">
+<img src="assets/cards/card-languages.png" alt="Same game line translated into six languages alongside native right-to-left Arabic app interface" width="100%">
 
-### Make it yours
+### Dark or light. Fix any line.
 
-Choose from 12 color themes, or use your own picture as the background.
+Switch between adaptive game-cover dark themes and high-contrast light themes (`Paper Light` & `Daylight Light`). Run quality checks, fix flagged lines with one-click **Retranslate Problems**, import/export CSV, or build a 1-click shareable patch `.zip`.
 
-<img src="assets/cards/card-themes.jpg" alt="Color themes and a custom background image." width="100%">
+<img src="assets/cards/card-themes.png" alt="Dark and light themes, live quality check, line editor, CSV import/export, and 1-click patch ZIP" width="100%">
+
+### Free to start. Safe by design.
+
+Unlimited free machine translation, automatic local backups before writing, built-in translation memory for game updates, and optional cloud/local AI presets with upfront estimates and strict cost caps.
+
+<img src="assets/cards/card-safe.png" alt="Free built-in engines, automatic backups, translation memory, and optional AI providers with cost cap" width="100%">
 
 ---
 
-## How it works
+## Supported Game Engines (18)
 
-1. **Pick your game folder.** Lexi scans the scripts, compiled `.rpyc` files and `.rpa` archives for text.
-2. **Choose your language** and a translation engine. The free engines work right away.
-3. **Press Translate.** Ren'Py tags, variables and formatting codes are kept intact, and damaged lines are detected and retried automatically. A backup is made before anything is written, with one-click restore.
-4. **Open the game in your language.** Review or fix lines in the built-in editor whenever you like.
+| Engine Family | Supported Versions / Formats | How Lexi Handles It |
+|---|---|---|
+| **Ren'Py** | `.rpy`, compiled `.rpyc`, `.rpa` archives | Native `tl/<language>/` output, official menu translations, auto font patch, optional in-game language switcher |
+| **RPG Maker (Modern)** | RPG Maker MV, RPG Maker MZ | Native JSON/JS text extraction & write-back, control-code protection, auto font patch |
+| **RPG Maker (Classic)** | RPG Maker VX Ace, VX, XP, 2000 / 2003 | Native script/map/database extraction & write-back with safe backup before write |
+| **Unity** | Unity Mono & Unity IL2CPP | **Autopilot & Live Bridge** (BepInEx + XUnity), packed text extraction & auto font patch |
+| **Unreal Engine** | Unreal Engine 4 & Unreal Engine 5 | **Autopilot & Live Bridge** (UE4SS), `.locres`/text handling & `.ufont` automatic font patch |
+| **Godot** | Godot 3 & Godot 4 | `.pck` / resource scanning, translation write-back & tag protection |
+| **Visual Novel & Scripting** | TyranoScript / TyranoBuilder, WOLF RPG Editor, KiriKiri / KAG, QSP | Native script & scenario extraction, tag/command preservation, backup before write |
+| **Web, Indie & Tactical** | HTML / Twine (SugarCube & Harlowe), GameMaker, SRPG Studio | Native HTML/data/JSON string scanning, markup preservation & backup before write |
 
 ---
 
 ## The app
 
-Lexi is a native Windows desktop app. These screenshots show the Ren'Py SDK demo game (*The Question*).
+Lexi is a native Windows desktop app built for speed, readability, and safe local workflows.
 
-<img src="screenshots/app-overview.jpg" alt="Lexi overview screen with progress, backups and a live preview, shown over a custom wallpaper." width="100%">
+<details>
+<summary>More app screenshots (Overview, Autopilot, Quality & Editor, Light Themes, Arabic RTL)</summary>
 
-*Overview: progress, backups and a live preview of the translation.*
+<br>
 
-<img src="screenshots/app-editor.jpg" alt="Lexi's built-in translation editor." width="100%">
+<img src="screenshots/app-overview.png" alt="Lexi Game Translator overview screen with live preview, progress, backups, and Game Shelf" width="100%">
 
-*Built-in editor: find broken, untranslated or empty lines and fix them in place.*
+*Overview: live preview, adaptive game cover colors, automatic backups, and Game Shelf.*
 
-<img src="screenshots/app-scan.jpg" alt="Lexi's game scan screen." width="100%">
+<img src="screenshots/app-autopilot.png" alt="Lexi Autopilot screen ready for an Unreal Engine game with Live Bridge and Auto Font Patch" width="100%">
 
-*Game scan: counts the lines of text in a game folder.*
+*Autopilot & Live Bridge: automated plugin setup, font patching, and one-click launch for Unity and Unreal titles.*
 
-<img src="screenshots/app-themes.jpg" alt="Lexi's application settings with color themes and background options." width="100%">
+<img src="screenshots/app-editor.png" alt="Lexi quality check and built-in line editor with Retranslate problems and CSV import/export" width="100%">
 
-*Application settings: interface language, color themes and background.*
+*Quality & editing: spot broken tags or untranslated lines, retranslate problems in one click, edit in place, or export CSV.*
 
----
+<img src="screenshots/app-themes.png" alt="Lexi Paper Light high-contrast light theme" width="100%">
 
-## Highlights
+*Light & dark themes: high-contrast Paper Light and Daylight Light alongside adaptive dark palettes.*
 
-- **Free Basic tier:** Translate with Google, Microsoft Edge, Bing, Yandex, or the automatic free fallback chain without paying, signing up, or entering API keys.
-- **Backup first:** Automatic backup before anything is written, with one-click restore.
-- **Code & tag preservation:** Ren'Py dialogue tags (`{b}`, `{i}`, `{color}`...), interpolation variables (`[name]`) and formatting codes stay intact. Damaged lines are detected and retried automatically.
-- **Broad format support:** Works with `.rpy` script files, compiled `.rpyc` files (via a built-in decoder), and `.rpa` game archives.
-- **Costs shown up front:** Paid engines show an estimated cost and ask for your approval before starting, and you can set a cost ceiling.
-- **Quality tools:** In-game coverage checks, translation memory caching, glossaries for character names, and a built-in line editor.
+<img src="screenshots/app-rtl.png" alt="Lexi native right-to-left Arabic interface" width="100%">
+
+*12 interface languages: includes full native right-to-left Arabic layout.*
+
+</details>
 
 ---
 
 ## Plans
 
-Choose the plan that matches your translation workflow:
+Choose the plan that fits your workflow:
 
 | Plan | Price | Features & Engines | Requirements |
 |---|---|---|---|
-| **Basic** | **Free** | Machine translation via Google, Microsoft Edge, Bing, Yandex, and the automatic Free Engine Chain (Google + Edge fallback). Includes all scanning, editing, backup, and glossary tools. | None. No account, no sign-in, no key, no daily limit. |
-| **Plus** | **$7 / mo** | Everything in Basic, plus **AI translation** using your own API key (OpenAI and other AI providers). | Patreon subscription + your own AI API key. |
+| **Basic** | **Free** | All **18 game engines**, Autopilot & Live Bridge, Auto Font Patch, backups, Game Shelf, editor, CSV, patch `.zip`, glossary, translation memory, and free machine translation engines (Google, Microsoft Edge, Bing, Yandex, and automatic Free Engine Chain). | None. No account, no sign-in, no key, no daily limit. |
+| **Plus** | **$7 / mo** | Everything in Basic, plus **cloud & local AI translation** using your own API key or local server (OpenAI, Gemini, DeepSeek, Groq, Mistral, Claude, OpenRouter, Ollama, LM Studio, and more) with upfront cost estimates and spending caps. | Patreon subscription + your own AI API key (or local model). |
 | **Pro** | **$12 / mo** | Everything in Plus, plus **monthly Lexi AI credits** included directly. *(Coming soon)* | Patreon subscription. *(In development)* |
 
 ### How subscriptions work
-- **Optional 3-day free trial:** Every computer can start a one-time 3-day trial of Plus features from inside the app. The trial is optional; Lexi works without it.
+- **Optional 3-day trial:** Every computer can start an optional one-time 3-day trial of Plus features from inside the app. Lexi Basic works without it.
 - **Patreon integration:** Subscribe on [Patreon](https://www.patreon.com/cw/LexiApps), open Lexi, and click **Sign in with Patreon**. Your license activates and renews automatically. One license = one computer.
-- **Lexi does not lock when a plan ends:** If your trial or subscription ends, Basic keeps working; only the Plus features turn off.
-
----
-
-## Features
-
-### Scanning & Native Output
-- Discovers dialogue lines, choices, menus, and user interface strings.
-- Handles standard `.rpy` scripts, compiled `.rpyc` binaries, and packed `.rpa` game archives.
-- Generates files in the game's native `tl/<language>/` directory using standard Ren'Py syntax.
-- Optional automatic in-game language switcher injection.
-- Safety net for text that would otherwise escape translation in-game, plus a coverage check.
-
-### Translation Engines
-- **Free Machine Translation:** Access Google, Microsoft Edge, Bing, Yandex, and the dual-service free engine chain with automatic fallback.
-- **Bring Your Own AI Key (Plus):** Connect your own API keys for OpenAI (GPT models) and additional AI providers.
-- **Source Languages:** Automatic language detection or manual selection: English, Japanese, Chinese, Korean, Russian, Spanish, Portuguese, German, French, Italian, Polish, Turkish, Indonesian, Vietnamese, Thai.
-- **Target Languages:** Any target language supported by the selected translation engine.
-
-### Cost Control & Budget Protection
-- Upfront cost estimates calculated and displayed before any paid API operation begins.
-- A cost ceiling you set yourself for paid runs.
-- Translation memory (caching) stores previously translated phrases to avoid redundant translations and API costs.
-
-### Code Protection & Quality Assurance
-- Preserves Ren'Py tags (`{b}`, `{i}`, `{color}`…), variables (`[name]`) and format codes.
-- Detects damaged lines and retries them automatically.
-- Quality check and a built-in translation editor for manual fixes.
-- Glossary (term list) to keep character names and terms consistent.
-- Translations saved per game; mod translation supported.
-
-### User Interface & Customization
-- **11 interface languages:** English, Türkçe, Русский, 中文, 日本語, Español, Português (Brasil), Deutsch, Français, 한국어, Polski.
-- **12 curated color themes** plus support for custom background wallpapers.
-- Automatic updates from this repository, installed with one click.
+- **Lexi does not lock when a plan ends:** If your trial or subscription ends, Basic keeps working with all free engines; only Plus features turn off.
 
 ---
 
 ## Getting Started
 
-1. **Download:** Grab the latest `Lexi-RenPy-Translator-Setup` installer from the [Releases page](https://github.com/lexi-apps/lexi-renpy-translator/releases/latest).
-2. **Install:** Run the installer. It installs per-user in your local profile, requiring no administrator permissions.
-3. **Open:** Launch Lexi. You are immediately ready to use the free Basic tier, with no registration or login necessary. (Optional: click *Sign in with Patreon* or start the 3-day trial if you wish to use Plus AI features.)
-4. **Configure:** Select your Ren'Py game folder, set your target language, and pick your preferred translation engine.
-5. **Translate & Play:** Run the translation, review or refine lines in the built-in editor, and launch your translated visual novel.
+1. **Download:** Grab the latest Windows installer from the [Releases page](https://github.com/lexi-apps/lexi-renpy-translator/releases/latest).
+2. **Install:** Run the installer (per-user install, no administrator permissions required).
+3. **Open:** Launch Lexi and start using Basic immediately with no account or login.
+4. **Drop a game folder:** Lexi automatically detects the engine, counts translatable lines, and checks your translation memory.
+5. **Translate & play:** Pick your target language and translation engine, press **Translate**, and launch your game right from Lexi.
 
 ---
 
 ## Requirements
 
 - **Operating System:** Windows 10 or Windows 11 (64-bit).
-- **Disk Space:** Approximately 137 MB for the installer.
-- **Internet Connection:** Required for online translation engines and checking for application updates.
+- **Internet Connection:** Required for online translation engines and update checks (local Ollama / LM Studio AI presets in Plus can translate offline once configured).
 
 ---
 
 ## Privacy & Data
 
-- **Your data stays on your computer:** settings, translation memory and backups are stored locally.
+- **Your data stays on your computer:** settings, Game Shelf, translation memory, glossaries, and backups are stored locally.
 - **API keys** are stored in the Windows Credential Manager.
-- **What leaves your computer:** the text you translate is sent to the online translation engine you choose (for example Google, Microsoft, OpenAI).
-- **License server:** contacted only if you start the trial or sign in with Patreon. It stores only your machine code (a hash of hardware IDs), your Patreon user ID, license dates, an encrypted Patreon sign-in token, and a salted hash of your IP address for abuse limits. No name and no email.
-- **Report a problem** sends a cleaned log (keys, license key and your Windows user name removed) and your description, and only when you press Send.
-- **Uninstalling** Lexi does not delete your data.
-- **Verified updates:** update files are checked with a digital signature and SHA-256 before installing. The automatic update check connects to GitHub and can be turned off in Settings.
+- **What leaves your computer:** the text you choose to translate is sent to the translation engine you select (e.g., Google, Microsoft, OpenAI, or your local Ollama endpoint).
+- **License server:** contacted only if you start the optional trial or sign in with Patreon. It stores only your machine code (a hash of hardware IDs), your Patreon user ID, license dates, an encrypted Patreon sign-in token, and a salted hash of your IP address for abuse limits. No name and no email.
+- **Report a problem** sends a redacted log (API keys, license key, and Windows username stripped automatically) and your message — only when you click Send.
+- **Uninstalling** Lexi does not delete your saved translations or backups.
+- **Verified updates:** update packages are checked with a digital signature and SHA-256 before installing. Automatic update checks can be turned off in Settings.
 
 ---
 
 ## Frequently Asked Questions
 
 #### Is Lexi really free?
-Yes. The **Basic** plan is free: no account, no sign-in and no daily limit. You can translate whole games with the machine translation engines right away.
+Yes. The **Basic** plan is free across all 18 supported engines, with no account, no sign-in, and no daily limit.
 
 #### Do I need an account or an API key to use Lexi?
-No. You do not need an account, Patreon sign-in, or API key to use the free Basic tier. API keys and Patreon sign-in are only needed if you want to use Plus features for AI models (such as OpenAI).
+No. Basic works right away with built-in free machine translation engines. Patreon sign-in and API keys (or local AI servers) are only needed if you want Plus AI translation.
 
 #### What happens when my Plus trial or subscription ends?
-Lexi does not lock. Basic keeps working with the free engines; only the Plus features turn off.
+Lexi does not lock. Basic continues working with all 18 engines and free machine translation; only Plus AI features turn off.
 
 #### Windows SmartScreen warns me when I run the installer. Is that normal?
-Windows may show "Windows protected your PC" the first time you run the installer. This appears because Lexi is not code-signed yet (signing certificates are paid), not because a problem was found. Click **More info**, then **Run anyway**. Download Lexi only from the [official GitHub releases page](https://github.com/lexi-apps/lexi-renpy-translator/releases).
+Windows may show "Windows protected your PC" the first time you run the installer because the binary is not code-signed yet (code-signing certificates are paid). Click **More info**, then **Run anyway**, and always download from the [official GitHub releases page](https://github.com/lexi-apps/lexi-renpy-translator/releases).
 
-#### Will Lexi change my game files?
-Lexi writes the translation into the game folder through Ren'Py's own `tl/<language>/` system. Before writing anything it makes an automatic backup, which you can restore with one click.
+#### How does Lexi protect my game files?
+Before writing translations or patches, Lexi creates an automatic local backup of the affected files so you can restore your original files in one click from the Backups panel.
 
 #### Can I disable automatic update checks?
-Yes. You can disable automatic update checks at any time in the application settings.
+Yes. You can turn off automatic update checks anytime in Settings.
 
 ---
 
-## Support Lexi
+## Support & Bug Reports
 
-Lexi's Plus and Pro plans are on **[Patreon](https://www.patreon.com/cw/LexiApps)**. Your support pays for development, testing on more games and new features.
-
-Prefer a one-time tip instead of a membership? You can also leave voluntary support on **[Buy Me a Coffee](https://buymeacoffee.com/lexiapps)** (donations only — Plus and Pro licenses are only on Patreon).
-
----
-
-## Reporting Bugs
-
-Encountered an issue?
-- **In the app:** open the **About** tab and press **Report a problem** to send an error report (Lexi also offers to report after a crash).
-- **GitHub:** Open a ticket on [GitHub Issues](https://github.com/lexi-apps/lexi-renpy-translator/issues) detailing what occurred, your Lexi version, your Windows version, and the game or translation engine involved.
+- **In the app:** open **About → Report a problem** (secrets and Windows usernames are automatically redacted).
+- **Discord:** join the community on [Discord](https://discord.gg/HN9eWThUn2).
+- **GitHub Issues:** open an issue on [GitHub Issues](https://github.com/lexi-apps/lexi-renpy-translator/issues) with your Windows version, game engine, and translation engine.
+- **Support development:** subscribe on [Patreon](https://www.patreon.com/cw/LexiApps) (Plus / Pro) or leave a voluntary one-time tip on [Buy Me a Coffee](https://buymeacoffee.com/lexiapps) (donations only; licenses are on Patreon).
 
 ---
 
 ## More from Lexi Apps
 
-- **Website:** [lexi-apps.pages.dev](https://lexi-apps.pages.dev/lexi-renpy-translator/)
-- **Discord:** [discord.gg/HN9eWThUn2](https://discord.gg/HN9eWThUn2)
-- **[Lexi Download Manager](https://github.com/lexi-apps/lexi-download-manager):** a free download manager for Windows, with no ads and no account.
+- **Website:** [lexi-apps.pages.dev](https://lexi-apps.pages.dev/)
+- **[Lexi Download Manager](https://github.com/lexi-apps/lexi-download-manager):** a free multi-part download manager for Windows, with no ads and no account.
+- **[LexiDictate](https://github.com/lexi-apps/lexi-dictate):** fast system-wide voice dictation and on-screen selection translation for Windows.
 
 ---
 
 ## License
 
-Lexi is closed-source software. The source code is not part of this repository, which only hosts releases and this page.
+Lexi Game Translator is closed-source software. The source code is not part of this repository, which hosts official releases and documentation.
 
 ---
 
 <details>
 <summary>🇹🇷 Türkçe özet</summary>
 
-### Lexi — Ren'Py Çevirici
+### Lexi Oyun Çevirmeni
 
-**Lexi**, Ren'Py görsel roman oyunlarını başka dillere çeviren bir Windows masaüstü programıdır (Windows 10/11, 64-bit).
+**Lexi Oyun Çevirmeni**, **18 farklı oyun motorundaki** oyunları kendi dilinize çeviren yerel bir Windows masaüstü uygulamasıdır (Windows 10/11, 64-bit).
 
-#### Temel Özellikler
-- **Basic Tamamen Ücretsiz:** Hesap açma, giriş yapma, lisans anahtarı veya günlük kullanım sınırı yoktur. Kurulumun hemen ardından Google, Microsoft Edge, Bing, Yandex ve otomatik geçişli ücretsiz motor zinciri ile sınırsız çeviri yapabilirsiniz.
-- **Açılış Kilidi Yok:** Program doğrudan açılır; deneme süresi veya abonelik sona erdiğinde program kilitlenmez, ücretsiz Basic sürümde çalışmaya devam eder.
-- **Önce yedek:** Bir şey yazılmadan önce otomatik yedek alınır; tek tıkla geri dönebilirsiniz.
-- **Kod ve Etiket Koruması:** Ren'Py metin etiketleri (`{b}`, `{color}` vb.), değişkenler (`[name]`) ve biçimlendirmeler korunur; hasarlı satırlar tespit edilip otomatik olarak yeniden denenir.
-- **Geniş Dosya Desteği:** Standart `.rpy` betikleri, derlenmiş `.rpyc` dosyaları (dahili çözücü) ve `.rpa` arşiv paketleri doğrudan taranır ve çeviriler Ren'Py'ın yerel `tl/<dil>/` klasörüne yazılır.
+#### Öne Çıkan Özellikler
+- **18 Oyun Motoru:** Ren'Py, RPG Maker (2000/2003, XP, VX, VX Ace, MV, MZ), Unity (Mono ve IL2CPP), Unreal Engine 4 ve 5, Godot 3 ve 4, Tyrano, WOLF RPG, KiriKiri, QSP, HTML/Twine, GameMaker ve SRPG Studio.
+- **Otopilot ve Canlı Köprü:** Unity ve Unreal oyunlarında eklenti kurulumunu ve font yamasını otomatik hazırlar; Ren'Py ve RPG Maker gibi motorlarda sade arayüz sunar.
+- **Basic Ücretsiz:** Hesap, giriş, lisans anahtarı veya günlük sınır olmadan Google, Microsoft Edge, Bing, Yandex ve otomatik ücretsiz motor zinciriyle sınırsız çeviri yapabilirsiniz.
+- **Otomatik Yedek ve Güvenlik:** Oyun klasörüne yazmadan önce otomatik yerel yedek alınır; tek tıkla geri yüklenebilir.
+- **Otomatik Font Yaması ve İsim Koruması:** Türkçe, Kiril, Japonca, Korece, Çince, Tayca ve Hintçe için otomatik font yaması uygulanır; karakter adları, değişkenler ve etiketler korunur.
+- **Kalite Editörü, CSV ve Yama `.zip`:** Bozuk etiketleri veya çevrilmemiş satırları bulur, tek tıkla **Sorunları Yeniden Çevir** çalıştırır, CSV içe/dışa aktarır ve paylaşılabilir yama `.zip` üretir.
+- **12 Arayüz Dili ve Açık/Koyu Temalar:** Tam sağdan sola (RTL) Arapça dâhil 12 arayüz dili, oyun kapağına uyumlu koyu temalar ve yüksek kontrastlı açık temalar (`Paper Light`, `Daylight Light`).
 - **Planlar:**
-  - **Basic (Ücretsiz):** Tüm makine çeviri motorları, tarama, kalite editörü, sözlük ve yedekleme araçları.
-  - **Plus (7 $/ay):** Basic özelliklerine ek olarak kendi API anahtarınızla OpenAI ve diğer yapay zekâ motorlarını kullanma imkânı.
-  - **Pro (12 $/ay):** Plus özelliklerine ek olarak her ay dahil edilen Lexi yapay zekâ kredileri *(yakında)*.
-- **3 günlük Plus denemesi:** Her bilgisayarda bir kez, isteğe bağlı olarak uygulama içinden başlatılabilir.
-- **Abonelik:** [Patreon](https://www.patreon.com/cw/LexiApps) üzerinden abone olduktan sonra uygulama içinde **Sign in with Patreon** düğmesine tıklayarak lisansınızı otomatik olarak etkinleştirebilirsiniz (1 lisans = 1 bilgisayar).
-- **Tek seferlik bağış:** Abonelik olmadan destek olmak isterseniz [Buy Me a Coffee](https://buymeacoffee.com/lexiapps) üzerinden katkıda bulunabilirsiniz (yalnızca gönüllü destektir; Plus/Pro lisansı içermez).
-- **Arayüz:** 11 dil, 12 renk teması ve özel arka plan.
-- **Gizlilik:** Ayarlar, çeviri hafızası ve yedekler bilgisayarınızda kalır; çevrilen metin seçtiğiniz çevrimiçi çeviri motoruna gider. API anahtarları Windows Kimlik Bilgisi Yöneticisi'nde saklanır. Lisans sunucusuna yalnız denemeyi başlatırsanız ya da Patreon ile giriş yaparsanız bağlanılır; yalnız makine kodunu (donanım kimliklerinin özeti), Patreon kullanıcı numaranızı, lisans tarihlerini, şifreli Patreon giriş jetonunu ve IP'nin tuzlu özetini saklar; ad ve e-posta yoktur.
+  - **Basic (Ücretsiz):** 18 oyun motoru, Otopilot, makine çevirisi motorları, kalite editörü, sözlük, çeviri belleği ve yedekleme araçları.
+  - **Plus (7 $/ay):** Basic özelliklerine ek olarak kendi API anahtarınızla veya yerel sunucunuzla (OpenAI, Gemini, DeepSeek, Groq, Mistral, Claude, OpenRouter, Ollama, LM Studio) yapay zekâ çevirisi ve maliyet sınırı.
+  - **Pro (12 $/ay):** Plus özelliklerine ek olarak aylık Lexi AI kredileri *(yakında)*.
+- **İsteğe bağlı 3 günlük Plus denemesi:** Her bilgisayarda bir kez uygulama içinden başlatılabilir; süre dolunca program kilitlenmez, Basic çalışmaya devam eder.
+- **Abonelik:** [Patreon](https://www.patreon.com/cw/LexiApps) üzerinden abone olup uygulama içinden **Sign in with Patreon** ile giriş yapılır (1 lisans = 1 bilgisayar).
 
 #### Hızlı Başlangıç
-1. [Releases](https://github.com/lexi-apps/lexi-renpy-translator/releases/latest) sayfasından `Lexi-RenPy-Translator-Setup` kurulum dosyasını indirin.
-2. Kurulumu çalıştırın (yönetici yetkisi gerektirmez). SmartScreen uyarısı çıkarsa "More info → Run anyway" seçeneğini kullanın.
-3. Lexi'yi açın, oyun klasörünü, hedef dili ve çeviri motorunu seçip çeviriyi başlatın.
+1. [Releases](https://github.com/lexi-apps/lexi-renpy-translator/releases/latest) sayfasından Windows kurulum dosyasını indirin.
+2. Kurulumu çalıştırın (yönetici yetkisi gerekmez). Windows SmartScreen çıkarsa **Ek bilgi → Yine de çalıştır** seçeneğini kullanın.
+3. Lexi'yi açın, oyun klasörünü bırakın, hedef dili ve çeviri motorunu seçip çeviriyi başlatın.
 
 </details>
+
+---
+**Website:** https://lexi-apps.pages.dev/ · **Discord:** https://discord.gg/HN9eWThUn2 · **Patreon:** https://www.patreon.com/cw/LexiApps · **Buy Me a Coffee:** https://buymeacoffee.com/lexiapps
