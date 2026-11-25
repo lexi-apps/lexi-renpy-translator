@@ -13,12 +13,13 @@
 [![Downloads](https://img.shields.io/github/downloads/lexi-apps/lexi-renpy-translator/total)](https://github.com/lexi-apps/lexi-renpy-translator/releases)
 ![Platform](https://img.shields.io/badge/platform-Windows%2010%2F11-0078D6)
 [![Discord](https://img.shields.io/badge/Discord-Join%20Community-5865F2?logo=discord&logoColor=white)](https://discord.gg/HN9eWThUn2)
+[![itch.io](https://img.shields.io/badge/itch.io-Lexi%20Apps-FA5C5C?logo=itch.io&logoColor=white)](https://lexiapps.itch.io/lexi-game-translator)
 [![Support on Patreon](https://img.shields.io/badge/Patreon-Support%20Lexi-F96854?logo=patreon&logoColor=white)](https://www.patreon.com/cw/LexiApps)
 [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Support-FFDD00?logo=buymeacoffee&logoColor=black)](https://buymeacoffee.com/lexiapps)
-[![Website](https://img.shields.io/badge/Website-lexi--apps.pages.dev-ff5a36)](https://lexi-apps.pages.dev/lexi-renpy-translator/)
+[![Website](https://img.shields.io/badge/Website-lexiapps.dev-ff5a36)](https://lexiapps.dev/lexi-game-translator/)
 
 ### [⬇️ Download Lexi for Windows](https://github.com/lexi-apps/lexi-renpy-translator/releases/latest)
-*Windows 10 / 11 (64-bit) · [Website](https://lexi-apps.pages.dev/lexi-renpy-translator/) · [Discord](https://discord.gg/HN9eWThUn2)*
+*Windows 10 / 11 (64-bit) · [Website](https://lexiapps.dev/lexi-game-translator/) · [itch.io](https://lexiapps.itch.io/lexi-game-translator) · [Discord](https://discord.gg/HN9eWThUn2)*
 
 </div>
 
@@ -135,13 +136,13 @@ Choose the plan that fits your workflow:
 | Plan | Price | Features & Engines | Requirements |
 |---|---|---|---|
 | **Basic** | **Free** | All **18 game engines**, Autopilot & Live Bridge, Auto Font Patch, backups, Game Shelf, editor, CSV, patch `.zip`, glossary, translation memory, and free machine translation engines (Google, Microsoft Edge, Bing, Yandex, and automatic Free Engine Chain). | None. No account, no sign-in, no key, no daily limit. |
-| **Plus** | **$7 / mo** | Everything in Basic, plus **cloud & local AI translation** using your own API key or local server (OpenAI, Gemini, DeepSeek, Groq, Mistral, Claude, OpenRouter, Ollama, LM Studio, and more) with upfront cost estimates and spending caps. | Patreon subscription + your own AI API key (or local model). |
-| **Pro** | **$12 / mo** | Everything in Plus, plus **monthly Lexi AI credits** included directly. *(Coming soon)* | Patreon subscription. *(In development)* |
+| **Lexi Supporter** | **$4 / mo** | Everything in Basic, plus support ongoing development, early feature previews, and devlogs on Patreon. | Optional Patreon membership. |
+| **Lexi Pro** | **$6 / mo** | Everything in Basic, plus **cloud & local AI translation** using your own API key or local server (OpenAI, Claude, Gemini, DeepSeek, Groq, Mistral, OpenRouter, Ollama, LM Studio, and more) with upfront cost estimates and strict spending caps. | Patreon subscription + your own AI API key (or local model). |
 
 ### How subscriptions work
-- **Optional 3-day trial:** Every computer can start an optional one-time 3-day trial of Plus features from inside the app. Lexi Basic works without it.
+- **Optional 3-day trial:** Every computer can start an optional one-time 3-day trial of AI translation features from inside the app. Lexi Basic works without it.
 - **Patreon integration:** Subscribe on [Patreon](https://www.patreon.com/cw/LexiApps), open Lexi, and click **Sign in with Patreon**. Your license activates and renews automatically. One license = one computer.
-- **Lexi does not lock when a plan ends:** If your trial or subscription ends, Basic keeps working with all free engines; only Plus features turn off.
+- **Lexi does not lock when a plan ends:** If your trial or subscription ends, Basic keeps working with all 18 engines and free translation; only Pro AI features turn off.
 
 ---
 
@@ -158,7 +159,7 @@ Choose the plan that fits your workflow:
 ## Requirements
 
 - **Operating System:** Windows 10 or Windows 11 (64-bit).
-- **Internet Connection:** Required for online translation engines and update checks (local Ollama / LM Studio AI presets in Plus can translate offline once configured).
+- **Internet Connection:** Required for online translation engines and update checks (local Ollama / LM Studio AI presets in Lexi Pro can translate offline once configured).
 
 ---
 
@@ -180,13 +181,13 @@ Choose the plan that fits your workflow:
 Yes. The **Basic** plan is free across all 18 supported engines, with no account, no sign-in, and no daily limit.
 
 #### Do I need an account or an API key to use Lexi?
-No. Basic works right away with built-in free machine translation engines. Patreon sign-in and API keys (or local AI servers) are only needed if you want Plus AI translation.
+No. Basic works right away with built-in free machine translation engines. Patreon sign-in and API keys (or local AI servers) are only needed if you want Lexi Pro AI translation.
 
-#### What happens when my Plus trial or subscription ends?
-Lexi does not lock. Basic continues working with all 18 engines and free machine translation; only Plus AI features turn off.
+#### What happens when my Pro trial or subscription ends?
+Lexi does not lock. Basic continues working with all 18 engines and free machine translation; only Lexi Pro AI features turn off.
 
 #### Windows SmartScreen warns me when I run the installer. Is that normal?
-Windows may show "Windows protected your PC" the first time you run the installer because the binary is not code-signed yet (code-signing certificates are paid). Click **More info**, then **Run anyway**, and always download from the [official GitHub releases page](https://github.com/lexi-apps/lexi-renpy-translator/releases).
+Windows may show "Windows protected your PC" the first time you run the installer because the binary is not code-signed yet (code-signing certificates are paid). Each release includes SHA-256 checksums and is scanned on VirusTotal before publishing. Click **More info**, then **Run anyway**, and always download from the [official GitHub releases page](https://github.com/lexi-apps/lexi-renpy-translator/releases).
 
 #### How does Lexi protect my game files?
 Before writing translations or patches, Lexi creates an automatic local backup of the affected files so you can restore your original files in one click from the Backups panel.
@@ -201,15 +202,15 @@ Yes. You can turn off automatic update checks anytime in Settings.
 - **In the app:** open **About → Report a problem** (secrets and Windows usernames are automatically redacted).
 - **Discord:** join the community on [Discord](https://discord.gg/HN9eWThUn2).
 - **GitHub Issues:** open an issue on [GitHub Issues](https://github.com/lexi-apps/lexi-renpy-translator/issues) with your Windows version, game engine, and translation engine.
-- **Support development:** subscribe on [Patreon](https://www.patreon.com/cw/LexiApps) (Plus / Pro) or leave a voluntary one-time tip on [Buy Me a Coffee](https://buymeacoffee.com/lexiapps) (donations only; licenses are on Patreon).
+- **Support development:** subscribe on [Patreon](https://www.patreon.com/cw/LexiApps) (Lexi Supporter / Lexi Pro) or leave a voluntary one-time tip on [Buy Me a Coffee](https://buymeacoffee.com/lexiapps) (donations only; licenses are on Patreon).
 
 ---
 
 ## More from Lexi Apps
 
-- **Website:** [lexi-apps.pages.dev](https://lexi-apps.pages.dev/)
-- **[Lexi Download Manager](https://github.com/lexi-apps/lexi-download-manager):** a free multi-part download manager for Windows, with no ads and no account.
-- **[LexiDictate](https://github.com/lexi-apps/lexi-dictate):** fast system-wide voice dictation and on-screen selection translation for Windows.
+- **Website:** [lexiapps.dev](https://lexiapps.dev/)
+- **[Lexi Download Manager](https://lexiapps.dev/lexi-download-manager/)** ([GitHub](https://github.com/lexi-apps/lexi-download-manager)): a free multi-part download manager for Windows, with no ads and no account.
+- **[LexiDictate](https://lexiapps.dev/lexi-dictate/)** ([GitHub](https://github.com/lexi-apps/lexi-dictate)): fast system-wide voice dictation and on-screen selection translation for Windows.
 
 ---
 
@@ -236,9 +237,9 @@ Lexi Game Translator is closed-source software. The source code is not part of t
 - **12 Arayüz Dili ve Açık/Koyu Temalar:** Tam sağdan sola (RTL) Arapça dâhil 12 arayüz dili, oyun kapağına uyumlu koyu temalar ve yüksek kontrastlı açık temalar (`Paper Light`, `Daylight Light`).
 - **Planlar:**
   - **Basic (Ücretsiz):** 18 oyun motoru, Otopilot, makine çevirisi motorları, kalite editörü, sözlük, çeviri belleği ve yedekleme araçları.
-  - **Plus (7 $/ay):** Basic özelliklerine ek olarak kendi API anahtarınızla veya yerel sunucunuzla (OpenAI, Gemini, DeepSeek, Groq, Mistral, Claude, OpenRouter, Ollama, LM Studio) yapay zekâ çevirisi ve maliyet sınırı.
-  - **Pro (12 $/ay):** Plus özelliklerine ek olarak aylık Lexi AI kredileri *(yakında)*.
-- **İsteğe bağlı 3 günlük Plus denemesi:** Her bilgisayarda bir kez uygulama içinden başlatılabilir; süre dolunca program kilitlenmez, Basic çalışmaya devam eder.
+  - **Lexi Supporter (4 $/ay):** Geliştirmeye destek, erken önizlemeler ve geliştirme günlükleri.
+  - **Lexi Pro (6 $/ay):** Basic özelliklerine ek olarak kendi API anahtarınızla veya yerel sunucunuzla (OpenAI, Claude, Gemini, DeepSeek, Groq, Mistral, OpenRouter, Ollama, LM Studio) yapay zekâ çevirisi ve maliyet sınırı.
+- **İsteğe bağlı 3 günlük Pro denemesi:** Her bilgisayarda bir kez uygulama içinden başlatılabilir; süre dolunca program kilitlenmez, Basic çalışmaya devam eder.
 - **Abonelik:** [Patreon](https://www.patreon.com/cw/LexiApps) üzerinden abone olup uygulama içinden **Sign in with Patreon** ile giriş yapılır (1 lisans = 1 bilgisayar).
 
 #### Hızlı Başlangıç
@@ -249,4 +250,4 @@ Lexi Game Translator is closed-source software. The source code is not part of t
 </details>
 
 ---
-**Website:** https://lexi-apps.pages.dev/ · **Discord:** https://discord.gg/HN9eWThUn2 · **Patreon:** https://www.patreon.com/cw/LexiApps · **Buy Me a Coffee:** https://buymeacoffee.com/lexiapps
+**Website:** https://lexiapps.dev/ · **Discord:** https://discord.gg/HN9eWThUn2 · **Patreon:** https://www.patreon.com/cw/LexiApps · **Buy Me a Coffee:** https://buymeacoffee.com/lexiapps
